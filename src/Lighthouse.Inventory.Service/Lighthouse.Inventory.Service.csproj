@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Lighthouse.Catalog.Contracts" Version="1.0.1" />
+    <PackageReference Include="Lighthouse.Common" Version="1.0.4" />
+    <PackageReference Include="Microsoft.Extensions.Http.Polly" Version="7.0.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Lighthouse.Inventory.Contracts\Lighthouse.Inventory.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>
